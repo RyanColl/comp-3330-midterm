@@ -30,7 +30,7 @@ We can use the PUT and PATCH requests similarily to insert new information into 
 
 We can use the DELETE request to delete from our database the course with the given ID.
 
-# ES6
+# ES6 Features
 
 1. Const from line 8 of Server.js 
 ```js
