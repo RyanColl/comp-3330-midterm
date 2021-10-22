@@ -6,6 +6,10 @@ The router created by this express server is for capturing our course data in an
 
 The app is hosted as a RESTAPI on: https://comp-3330-midterm.herokuapp.com/
 
+# Command Line
+
+The scripts I chose to include in my project today were the start script: "node Server.js", and the dependencies script: "npm i". Because we are not using React, we do not need a build script to bundle the react app before hosting.
+
 # RESTAPI
 
 The REST API I created for this midterm deals with courses that include a date for further sorting in a react app. Each course has a time, and with a react front end, we could display these times as tables in a schedule. I used a course Router and the Mongoose Models to create a RESTAPI that reaches out and interacts with the courses db in the mongo atlas. As I said before, these courses would be ready for pulling and sorting into a react app for a schedule.
