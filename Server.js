@@ -13,6 +13,9 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 courseRouter
+  .route('/date')
+  .get((req, res) => res.redirect('/api/courses'))
+courseRouter
   .route("/courses")
   .post((req, res) => {
     const course = new Course(req.body);
