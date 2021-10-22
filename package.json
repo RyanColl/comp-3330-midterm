@@ -6,6 +6,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dependencies": "npm i",
     "start": "node Server.js"
   },
   "author": "",

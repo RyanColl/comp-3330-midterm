@@ -89,7 +89,7 @@ courseRouter
 app.use((req, res, next) => {
     fs.appendFile(
         path.join(__dirname, 'log.txt'), 
-        `Reqest Ip: ${req.ip} at ${new Date().toTimeString().substr(0, 14)}\n`,
+        `Reqest Ip: ${req.ip} at ${new Date().toTimeString().substr(0, 8)}\n`,
         'utf-8',
         (err) => {
         if(err) {
