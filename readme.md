@@ -30,3 +30,25 @@ We can use the PUT and PATCH requests similarily to insert new information into 
 
 We can use the DELETE request to delete from our database the course with the given ID.
 
+# ES6
+
+1. Const from line 8 of Server.js 
+```js
+const courseRouter = express.Router();
+```
+2. Arrow Function from line 17 of Server.js:
+```js
+.get((req, res) => res.redirect('/api/courses'))
+```
+3. Template literal String from line 67 of Server.js:
+```js
+Course.replaceOne({"_id": `${req.params.courseId}`}, {
+```
+4. Modules from line 2 of ConnectionString.js:
+```js
+module.exports = {uri}
+```
+5. Destructuring from line 2 of CourseModel.js:
+```js
+const {Schema} = mongoose;
+```
